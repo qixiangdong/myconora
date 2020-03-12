@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/myconora/static/css/main.2d51ff4f.chunk.css",
+    "main.js": "/myconora/static/js/main.3e02ef8f.chunk.js",
+    "main.js.map": "/myconora/static/js/main.3e02ef8f.chunk.js.map",
+    "runtime-main.js": "/myconora/static/js/runtime-main.e978349e.js",
+    "runtime-main.js.map": "/myconora/static/js/runtime-main.e978349e.js.map",
+    "static/css/2.1bd2ab2f.chunk.css": "/myconora/static/css/2.1bd2ab2f.chunk.css",
+    "static/js/2.0eb61d06.chunk.js": "/myconora/static/js/2.0eb61d06.chunk.js",
+    "static/js/2.0eb61d06.chunk.js.map": "/myconora/static/js/2.0eb61d06.chunk.js.map",
+    "index.html": "/myconora/index.html",
+    "precache-manifest.6d57fec3547428b8dee1628eaa96decc.js": "/myconora/precache-manifest.6d57fec3547428b8dee1628eaa96decc.js",
+    "service-worker.js": "/myconora/service-worker.js",
+    "static/css/2.1bd2ab2f.chunk.css.map": "/myconora/static/css/2.1bd2ab2f.chunk.css.map",
+    "static/css/main.2d51ff4f.chunk.css.map": "/myconora/static/css/main.2d51ff4f.chunk.css.map",
+    "static/js/2.0eb61d06.chunk.js.LICENSE.txt": "/myconora/static/js/2.0eb61d06.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e978349e.js",
+    "static/css/2.1bd2ab2f.chunk.css",
+    "static/js/2.0eb61d06.chunk.js",
+    "static/css/main.2d51ff4f.chunk.css",
+    "static/js/main.3e02ef8f.chunk.js"
+  ]
+}
