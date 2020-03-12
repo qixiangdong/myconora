@@ -12,7 +12,7 @@ export default class TodayData extends React.Component {
         return (
             <>
                 
-                <h3> 马来西亚COVID-19 统计数据 </h3>
+                <h3> 马来西亚COVID-19统计数据 </h3>
                 <h4> {new Date().format("yyyy年MM月dd日")} </h4>
                 <h5> 最后更新时间: 2020年3月11日 下午4点  </h5>
                     <Row justify='center' gutter={6}>
