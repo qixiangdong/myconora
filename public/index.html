@@ -26,45 +26,36 @@
     -->
   <title>马来西亚COVID-19每日统计数据</title>
 </head>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">导航</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
-    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarColor01">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#root">今日数据 <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#dataChart">数据走势</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#networkGraph">确诊网络图</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#wordToday">全球数据</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+
+
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <div class="container">
+    <div class="text-center">
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-primary active">
+        <input type="checkbox" checked="" autocomplete="off"> <a href="#root">今日数据 <span
+            class="sr-only">(current)</span></a>
+      </label>
+      <label class="btn btn-primary">
+        <input type="checkbox" autocomplete="off"> <a href="#dataChart">数据走势</a>
+      </label>
+      <label class="btn btn-primary">
+        <input type="checkbox" autocomplete="off"> <a href="#wordToday">全球数据</a>
+      </label>
+    </div>
+  </div>
+  </div>
+
   <div id="root"></div>
   <hr />
   <div class="container" id="dataChart">
     <h5>数据走势</h5>
     <div class="container" id="c1"></div>
   </div>
-  <hr />
-  <div class="container" id="networkGraph">
-    <h5>马来西亚病例网络图</h5>
-  </div>
-  <iframe style="width:100%" ; height="100%" width="100%" src="https://www.outbreak.my/widget/cases-network-graph"
-    frameborder="0" allow="autoplay; picture-in-picture" allowfullscreen></iframe>
   <hr />
   <div class="container" id="wordToday">
     <h5>全球今日数据</h5>
