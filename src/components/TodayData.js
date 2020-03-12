@@ -6,61 +6,45 @@ import { Typography, Divider } from 'antd';
 
 const { Title, Paragraph, Text } = Typography;
 
-const todayData = {
-    confirmedCase: {
-        total: 149,
-        changes: '+20'
-    },
-    recoveredCase: {
-        total: 26,
-        changes: '+1'
-    },
-    pendingCase: {
-        total: 239,
-        changes: '-23'
-    },
-    deathCase: {
-        total: 0,
-        changes: '-'
-    }
-}
+
 export default class TodayData extends React.Component {
     render() {
         return (
-            <div>
+            <>
                 
-                <Title level={2}> 马西亚COVID - 19 实时数据 </Title>
-                <h3> {new Date().format("yyyy年MM月dd日")} </h3>
-                    <Row gutter={16}>
-                        <Col span={6}>
-                            <Statistic title="确诊" value={todayData.confirmedCase.total} valueStyle={{ color: '#cf1322' }} />
+                <Title level={5}> 马来西亚COVID-19 统计数据 </Title>
+                <Title level={3}> {new Date().format("yyyy年MM月dd日")} </Title>
+                <Title level={3}> 最后更新时间: 2020年3月11日 下午4点  </Title>
+                    <Row justify='center' gutter={6}>
+                        <Col span={3}>
+                            <Statistic title="确诊" value={this.props.todayData.confirmedCase.total} valueStyle={{ color: '#cf1322' }} />
                         </Col>
-                        <Col span={6}>
-                            <Statistic title="治愈" value={todayData.recoveredCase.total} valueStyle={{ color: '#3f8600' }} />
+                        <Col span={3}>
+                            <Statistic title="治愈" value={this.props.todayData.recoveredCase.total} valueStyle={{ color: '#3f8600' }} />
                         </Col>
-                        <Col span={6}>
-                            <Statistic title="等待检测结果" value={todayData.pendingCase.total} valueStyle={{ color: '#b9bab8' }} />
+                        <Col span={3}>
+                            <Statistic title="等待检测结果" value={this.props.todayData.pendingCase.total} valueStyle={{ color: '#b9bab8' }} />
                         </Col>
-                        <Col span={6}>
-                            <Statistic title="死亡" value={todayData.deathCase.total} valueStyle={{ color: '#000000' }} />
+                        <Col span={3}>
+                            <Statistic title="死亡" value={this.props.todayData.deathCase.total} valueStyle={{ color: '#000000' }} />
                         </Col>
                     </Row>
 
-                    <Row gutter={16}>
-                        <Col span={6}>
-                            <Text>{todayData.confirmedCase.changes}</Text>
+                    <Row justify='center' gutter={6}>
+                        <Col span={3}>
+                            <Text>{this.props.todayData.confirmedCase.changes}</Text>
                         </Col>
-                        <Col span={6}>
-                            <Text>{todayData.recoveredCase.changes}</Text>
+                        <Col span={3}>
+                            <Text>{this.props.todayData.recoveredCase.changes}</Text>
                         </Col>
-                        <Col span={6}>
-                            <Text>{todayData.pendingCase.changes}</Text>
+                        <Col span={3}>
+                            <Text>{this.props.todayData.pendingCase.changes}</Text>
                         </Col>
-                        <Col span={6}>
-                            <Text>{todayData.deathCase.changes}</Text>
+                        <Col span={3}>
+                            <Text>{this.props.todayData.deathCase.changes}</Text>
                         </Col>
                     </Row>
-            </div>
+            </>
                     );
                 }
             }
