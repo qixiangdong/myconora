@@ -12,35 +12,35 @@ export default class TodayData extends React.Component {
         return (
             <>
                 
-                <Title level={5}> 马来西亚COVID-19 统计数据 </Title>
-                <Title level={3}> {new Date().format("yyyy年MM月dd日")} </Title>
-                <Title level={3}> 最后更新时间: 2020年3月11日 下午4点  </Title>
+                <h3> 马来西亚COVID-19 统计数据 </h3>
+                <h4> {new Date().format("yyyy年MM月dd日")} </h4>
+                <h5> 最后更新时间: 2020年3月11日 下午4点  </h5>
                     <Row justify='center' gutter={6}>
-                        <Col span={3}>
+                        <Col span={6}>
                             <Statistic title="确诊" value={this.props.todayData.confirmedCase.total} valueStyle={{ color: '#cf1322' }} />
                         </Col>
-                        <Col span={3}>
+                        <Col span={6}>
                             <Statistic title="治愈" value={this.props.todayData.recoveredCase.total} valueStyle={{ color: '#3f8600' }} />
                         </Col>
-                        <Col span={3}>
+                        <Col span={6}>
                             <Statistic title="等待检测结果" value={this.props.todayData.pendingCase.total} valueStyle={{ color: '#b9bab8' }} />
                         </Col>
-                        <Col span={3}>
+                        <Col span={6}>
                             <Statistic title="死亡" value={this.props.todayData.deathCase.total} valueStyle={{ color: '#000000' }} />
                         </Col>
                     </Row>
 
                     <Row justify='center' gutter={6}>
-                        <Col span={3}>
+                        <Col span={6}>
                             <Text>{this.props.todayData.confirmedCase.changes}</Text>
                         </Col>
-                        <Col span={3}>
+                        <Col span={6}>
                             <Text>{this.props.todayData.recoveredCase.changes}</Text>
                         </Col>
-                        <Col span={3}>
+                        <Col span={6}>
                             <Text>{this.props.todayData.pendingCase.changes}</Text>
                         </Col>
-                        <Col span={3}>
+                        <Col span={6}>
                             <Text>{this.props.todayData.deathCase.changes}</Text>
                         </Col>
                     </Row>
