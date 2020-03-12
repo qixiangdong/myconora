@@ -15,12 +15,12 @@ const App = () => (
 
 const todayData = {
   confirmedCase: {
-    total: 149,
-    changes: '+20'
+    total: 158,
+    changes: '+9'
   },
   recoveredCase: {
-    total: 26,
-    changes: '+1'
+    total: 32,
+    changes: '+6'
   },
   pendingCase: {
     total: 239,
@@ -65,7 +65,7 @@ const data = [
   { 日期: '3-9', type: '确诊', 人数: 117 },
   { 日期: '3-10', type: '确诊', 人数: 129 },
   { 日期: '3-11', type: '确诊', 人数: 149 },
-  { 日期: '3-12', type: '确诊', 人数: 149 },
+  { 日期: '3-12', type: '确诊', 人数: 158 },
 
   { 日期: '2-11', type: '治愈', 人数: 3 },
   { 日期: '2-12', type: '治愈', 人数: 3 },
@@ -97,7 +97,7 @@ const data = [
   { 日期: '3-9', type: '治愈', 人数: 24 },
   { 日期: '3-10', type: '治愈', 人数: 24 },
   { 日期: '3-11', type: '治愈', 人数: 26 },
-  { 日期: '3-12', type: '治愈', 人数: 26 },
+  { 日期: '3-12', type: '治愈', 人数: 32 },
 ];
 
 const chart = new Chart({
