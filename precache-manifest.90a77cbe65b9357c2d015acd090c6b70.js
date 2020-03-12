@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f20c8c8cacb9eff9370fa16da16ca0d",
+    "revision": "8d192e015c49f95ed906c3bf2da92746",
     "url": "/myconora/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myconora/static/css/2.1bd2ab2f.chunk.css"
   },
   {
-    "revision": "7bde6b26cec2a8e452ab",
+    "revision": "6aadc5fa4e861d383f43",
     "url": "/myconora/static/css/main.2d51ff4f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myconora/static/js/2.9fd23e37.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7bde6b26cec2a8e452ab",
-    "url": "/myconora/static/js/main.43c313e1.chunk.js"
+    "revision": "6aadc5fa4e861d383f43",
+    "url": "/myconora/static/js/main.94bd8804.chunk.js"
   },
   {
     "revision": "404e10d1572ac08d04a5",
