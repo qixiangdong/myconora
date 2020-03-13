@@ -6,7 +6,7 @@ import WorldData from './components/WorldData'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<WorldData />, document.getElementById('worldData'));
+// ReactDOM.render(<WorldData />, document.getElementById('worldData'));
 
 
 // If you want your app to work offline and load faster, you can change
