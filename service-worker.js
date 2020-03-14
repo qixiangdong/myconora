@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/myconora/precache-manifest.efa80c8c52f652a99ecdd3fc4f97dbd1.js"
+  "/myconora/precache-manifest.cf0ceaedd1699418b9d525f9f82c1591.js"
 );
 
 self.addEventListener('message', (event) => {
