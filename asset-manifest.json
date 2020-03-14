@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/myconora/static/css/main.2d51ff4f.chunk.css",
-    "main.js": "/myconora/static/js/main.ab7ac840.chunk.js",
-    "main.js.map": "/myconora/static/js/main.ab7ac840.chunk.js.map",
+    "main.js": "/myconora/static/js/main.0486e776.chunk.js",
+    "main.js.map": "/myconora/static/js/main.0486e776.chunk.js.map",
     "runtime-main.js": "/myconora/static/js/runtime-main.e978349e.js",
     "runtime-main.js.map": "/myconora/static/js/runtime-main.e978349e.js.map",
     "static/css/2.1bd2ab2f.chunk.css": "/myconora/static/css/2.1bd2ab2f.chunk.css",
     "static/js/2.17e2f070.chunk.js": "/myconora/static/js/2.17e2f070.chunk.js",
     "static/js/2.17e2f070.chunk.js.map": "/myconora/static/js/2.17e2f070.chunk.js.map",
     "index.html": "/myconora/index.html",
-    "precache-manifest.6a4bb15ac927f979a8078d5116e6a251.js": "/myconora/precache-manifest.6a4bb15ac927f979a8078d5116e6a251.js",
+    "precache-manifest.202c755ce19fb22e43cd6b43a04795f9.js": "/myconora/precache-manifest.202c755ce19fb22e43cd6b43a04795f9.js",
     "service-worker.js": "/myconora/service-worker.js",
     "static/css/2.1bd2ab2f.chunk.css.map": "/myconora/static/css/2.1bd2ab2f.chunk.css.map",
     "static/css/main.2d51ff4f.chunk.css.map": "/myconora/static/css/main.2d51ff4f.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.1bd2ab2f.chunk.css",
     "static/js/2.17e2f070.chunk.js",
     "static/css/main.2d51ff4f.chunk.css",
-    "static/js/main.ab7ac840.chunk.js"
+    "static/js/main.0486e776.chunk.js"
   ]
 }
